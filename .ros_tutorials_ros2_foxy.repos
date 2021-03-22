@@ -1,0 +1,9 @@
+# $ cd ~/colcon_ws/src/
+# $ wget https://raw.githubusercontent.com/JaehyunShim/doodles/master/.ros_tutorials_ros2_foxy.repos
+# $ vcs import < .ros_tutorials_ros2_foxy.repos
+
+repositories:
+  ros_tutorials:
+    type: git
+    url: https://github.com/ros/ros_tutorials.git
+    version: foxy-devel

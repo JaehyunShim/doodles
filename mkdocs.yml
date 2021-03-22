@@ -1,0 +1,5 @@
+site_name: Jaehyun Doodle
+nav:
+- Home: index.md
+- MkDocs Usage: mkdocs_usage.md
+theme: readthedocs
