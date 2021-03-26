@@ -7,6 +7,7 @@
 - [study_cpp](https://github.com/JaehyunShim/doodles/blob/master/study_cpp.md)
 - [study_python](https://github.com/JaehyunShim/doodles/blob/master/study_python.md)
 - [study_cmake](https://github.com/JaehyunShim/doodles/blob/master/study_cmake.md)
+- [study_qt](https://github.com/JaehyunShim/doodles/blob/master/study_qt.md)
 - [study_markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 - [study_euslisp](https://github.com/JaehyunShim/doodles/blob/master/study_euslisp.md)
 - [study_js](https://github.com/JaehyunShim/doodles/blob/master/study_js.md)
