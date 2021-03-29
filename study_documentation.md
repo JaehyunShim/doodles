@@ -20,26 +20,23 @@ https://github.com/JaehyunShim/doodles/blob/master/docs/index.md
 - Doc Status: [![Documentation Status](https://readthedocs.org/projects/doodles/badge/?version=latest)](https://doodles.readthedocs.io/en/latest/?badge=latest)
 
 ## 2. Doxygen
+- Install
+```sh
+$ sudo apt-get install doxygen
+```
 - Usage
 ```sh
 # 1. Generate Doxyfile
 $ doxygen -g
 
-# 2. Project name: "Project Name", OUTPUT_DIRECTORY: "doxygen_docs", RECURSIVE: Yes, GENERATE_LATEX: No
+# 2. Project name: "Project Name", OUTPUT_DIRECTORY: "docs", RECURSIVE: YES, GENERATE_LATEX: NO
 
 # 3. Run doxygen
 $ doxygen Doxyfile
 
-# 4. Modify & add more content to index.html and other files.
-
-# 5. create a web hosting server, e.g., github.io, and upload the files.
-ex) https://github.com/JaehyunShim/docs.ros2_tutorial.org
+# 4. Upload index.html file with other docs files using Readthedocs
 ```
-- Doxygen Status: [![Doxygen](https://img.shields.io/badge/doxygen-documentation-blue.svg)](https://jaehyunshim.github.io/docs.ros2_tutorial.org/)
 
-## 3. Example
-- TODO
-
-## 4. Reference
+## 3. Reference
 - [Read the Docs official webpage](https://readthedocs.org/)
 - [Doxygen Doxyfile](https://www.doxygen.nl/manual/starting.html)
