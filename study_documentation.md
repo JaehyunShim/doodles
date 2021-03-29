@@ -17,7 +17,7 @@ https://github.com/JaehyunShim/doodles/blob/master/docs/index.md
 ```sh
 # My Projecs -> Import a Project -> Choose your project
 ```
-- Doc Status: [![Documentation Status](https://readthedocs.org/projects/jaehyun-doodle/badge/?version=latest)](https://jaehyun-doodle.readthedocs.io/en/latest/?badge=latest)
+- Doc Status: [![Documentation Status](https://readthedocs.org/projects/doodles/badge/?version=latest)](https://doodles.readthedocs.io/en/latest/?badge=latest)
 
 ## 2. Doxygen
 - Usage
