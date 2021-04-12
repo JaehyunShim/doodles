@@ -36,7 +36,8 @@ Now you can follow the below instruction to manually install necessary applicati
   }
 
   # Install Extensions
-  C/C++, Python, CMake, XML, YAML, Trailing Whitespace, EOF Mark, Git Graph, HTML Preview, vscode-pdf
+  C/C++, Python, CMake, XML, YAML, Trailing Whitespace, EOF Mark, Git Graph, HTML Preview
+  , vscode-pdf, Remote - Containers, Remote - SSH
   ```
   - Terminator
   ```sh

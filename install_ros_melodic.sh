@@ -86,6 +86,8 @@ sh -c "echo \"alias pe='env | grep ROS'\" >> ~/.bashrc"
 sh -c "echo \"alias ka='killall -9'\" >> ~/.bashrc"
 sh -c "echo \"alias kg='killall -9 gazebo & killall -9 gzserver  & killall -9 gzclient'\" >> ~/.bashrc"
 
+sh -c "echo \"alias rosreinstall='sudo apt remove ros-$name_ros_version-* -y && sudo apt autoremove -y && sudo apt install ros-$name_ros_version-desktop-full -y'\" >> ~/.bashrc"
+
 sh -c "echo \"source /opt/ros/$name_ros_version/setup.bash\" >> ~/.bashrc"
 sh -c "echo \"source ~/$name_catkin_workspace/devel/setup.bash\" >> ~/.bashrc"
 

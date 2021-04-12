@@ -61,6 +61,8 @@ sh -c "echo \"alias af='ament_flake8'\" >> ~/.bashrc"
 sh -c "echo \"alias ka='killall -9'\" >> ~/.bashrc"
 sh -c "echo \"alias kg='killall -9 gazebo & killall -9 gzserver  & killall -9 gzclient'\" >> ~/.bashrc"
 
+sh -c "echo \"alias ros2reinstall='sudo apt remove ros-$name_ros_version-* -y && sudo apt autoremove -y && sudo apt install ros-$name_ros_version-desktop -y'\" >> ~/.bashrc"
+
 sh -c "echo \"source /opt/ros/$name_ros_version/setup.bash\" >> ~/.bashrc"
 sh -c "echo \"source ~/$name_colcon_workspace/install/local_setup.bash\" >> ~/.bashrc"
 
