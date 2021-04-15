@@ -50,7 +50,7 @@ sh -c "echo \"alias cs='cd ~/$name_colcon_workspace/src'\" >> ~/.bashrc"
 sh -c "echo \"alias cb='cd ~/$name_colcon_workspace && colcon build --symlink-install && source ~/$name_colcon_workspace/install/local_setup.bash'\" >> ~/.bashrc"
 sh -c "echo \"alias ct='cd ~/$name_colcon_workspace && colcon test'\" >> ~/.bashrc"
 sh -c "echo \"alias ctr='cd ~/$name_colcon_workspace && colcon test-result --verbose'\" >> ~/.bashrc"
-sh -c "echo \"alias ci='cd ~/$name_catkin_workspace && rosdep update && rosdep install --from-paths src --ignore-src --rosdistro $name_ros_version -r -y'\" >> ~/.bashrc"
+sh -c "echo \"alias ci='cd ~/$name_catkin_workspace && rosdep install --from-paths src --ignore-src --rosdistro $name_ros_version -r -y'\" >> ~/.bashrc"
 sh -c "echo \"alias cr='cd ~/$name_colcon_workspace && rm -rf build install log'\" >> ~/.bashrc"
 
 sh -c "echo \"alias pe='printenv | grep ROS'\" >> ~/.bashrc"

@@ -78,7 +78,7 @@ sh -c "echo \"alias cw='cd ~/$name_catkin_workspace'\" >> ~/.bashrc"
 sh -c "echo \"alias cs='cd ~/$name_catkin_workspace/src'\" >> ~/.bashrc"
 sh -c "echo \"alias cm='cd ~/$name_catkin_workspace && catkin_make && rospack profile && source ~/$name_catkin_workspace/devel/setup.bash'\" >> ~/.bashrc"
 sh -c "echo \"alias ct='cd ~/$name_catkin_workspace && catkin_make run_tests roslint && rospack profile && source ~/$name_catkin_workspace/devel/setup.bash'\" >> ~/.bashrc"
-sh -c "echo \"alias ci='cd ~/$name_catkin_workspace && rosdep update && rosdep install --from-paths src --ignore-src --rosdistro $name_ros_version -r -y'\" >> ~/.bashrc"
+sh -c "echo \"alias ci='cd ~/$name_catkin_workspace && rosdep install --from-paths src --ignore-src --rosdistro $name_ros_version -r -y'\" >> ~/.bashrc"
 sh -c "echo \"alias cr='cd ~/$name_catkin_workspace && rm -rf build devel'\" >> ~/.bashrc"
 
 sh -c "echo \"alias pe='env | grep ROS'\" >> ~/.bashrc"
